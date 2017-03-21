@@ -1,0 +1,1 @@
+D:\Work\CSharp\CS280-Lecture6-Examples\Example01\bin\Debug\Example01.exe.config
