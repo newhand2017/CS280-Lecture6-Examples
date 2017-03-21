@@ -12,10 +12,6 @@ namespace PokemonLibrary
         //
         //-------------------------------------------------
 
-        public int GrassTypePowerUpCandy { get; set; }
-
-        public int GrassTypePowerUpStarDust { get; set; }
-
         //-------------------------------------------------
         // 建構式
         //-------------------------------------------------
@@ -24,9 +20,7 @@ namespace PokemonLibrary
             int nationNo,
             string[] type,
             float height,
-            float weight,
-            int grassTypePowerUpCandy,
-            int grassTypePowerUpStarDust
+            float weight
         )
             : base(
             name,
@@ -36,8 +30,14 @@ namespace PokemonLibrary
             weight
             )
         {
-            this.GrassTypePowerUpCandy = grassTypePowerUpCandy;
-            this.GrassTypePowerUpStarDust = grassTypePowerUpStarDust;
+            this.PowerUpCandy[this.Name] = 3;
+            this.PowerUpStardust[this.Name] = 3000;
+        }
+
+        public override void Attack(Pokemon other)
+        {
+            base.Attack(other);
+            Console.WriteLine("使用草系絕招");
         }
 
         //-------------------------------------------------

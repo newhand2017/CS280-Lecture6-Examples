@@ -1,0 +1,5 @@
+D:\Work\CSharp\CS280-Lecture6-Examples\PokemonLibrary\obj\Debug\PokemonLibrary.csprojResolveAssemblyReference.cache
+D:\Work\CSharp\CS280-Lecture6-Examples\PokemonLibrary\bin\Debug\PokemonLibrary.dll
+D:\Work\CSharp\CS280-Lecture6-Examples\PokemonLibrary\bin\Debug\PokemonLibrary.pdb
+D:\Work\CSharp\CS280-Lecture6-Examples\PokemonLibrary\obj\Debug\PokemonLibrary.dll
+D:\Work\CSharp\CS280-Lecture6-Examples\PokemonLibrary\obj\Debug\PokemonLibrary.pdb

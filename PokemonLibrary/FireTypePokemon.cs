@@ -8,9 +8,7 @@ namespace PokemonLibrary
 {
     public class FireTypePokemon : Pokemon
     {
-        public int FireTypePowerUpCandy { get; set; }
-
-        public int FireTypePowerUpStarDust { get; set; }
+        //-------------------------------------------------
 
         //-------------------------------------------------
         // 建構式
@@ -20,9 +18,7 @@ namespace PokemonLibrary
             int nationNo,
             string[] type,
             float height,
-            float weight,
-            int fireTypePowerUpCandy,
-            int fireTypePowerUpStarDust
+            float weight
         )
             : base(
             name,
@@ -32,8 +28,8 @@ namespace PokemonLibrary
             weight
             )
         {
-            this.FireTypePowerUpCandy = fireTypePowerUpCandy;
-            this.FireTypePowerUpStarDust = fireTypePowerUpStarDust;
+            // this.PowerUpCandy = 3;
+            //  this.PowerUpStarDust = 3000;
         }
     }
 }
