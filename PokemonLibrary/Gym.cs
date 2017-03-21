@@ -15,7 +15,7 @@ namespace PokemonLibrary
         public Gym(string[] names)
         {
             pokemons = new Pokemon[names.Length];
-            this.random = Random();
+            this.random = new Random();
 
             for (int index = 0; index <= pokemons.Length; index++)
             {
