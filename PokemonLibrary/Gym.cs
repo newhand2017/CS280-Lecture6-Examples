@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace PokemonLibrary
 {
-    internal class Gym
+    public class Gym
     {
         public Pokemon[] pokemons;
-        public Pokemon pokemon2;
         private Random random;
 
         public Gym(string[] names)
@@ -17,13 +16,13 @@ namespace PokemonLibrary
             pokemons = new Pokemon[names.Length];
             this.random = new Random();
 
-            for (int index = 0; index <= pokemons.Length; index++)
+            for (int index = 0; index < pokemons.Length; index++)
             {
                 pokemons[index] = PokemonFactory.Creat(names[index]);
             }
         }
 
-        public void fight()
+        public void Fight()
         {
             int a = this.RandomGenerator(0, this.pokemons.Length);
             int b = this.RandomGenerator(0, this.pokemons.Length);
@@ -38,6 +37,8 @@ namespace PokemonLibrary
             return (int)result;
         }
 
+        // public Pokemon pokemon1;
+        // public Pokemon pokemon2;
         //   public Gym(string name1, string name2)
         //   {
         //       this.pokemon1 = PokemonFactory.Creat(name1);

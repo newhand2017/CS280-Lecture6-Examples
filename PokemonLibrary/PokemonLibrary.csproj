@@ -42,6 +42,7 @@
     <Compile Include="Bulbasaur.cs" />
     <Compile Include="FireTypePokemon.cs" />
     <Compile Include="GrassTypePokemon.cs" />
+    <Compile Include="Gym.cs" />
     <Compile Include="Ivysaur.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="PokemonFactory.cs" />

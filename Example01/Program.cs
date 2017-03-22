@@ -32,7 +32,8 @@ namespace Example01
 
             if (args.Length >= 2)
             {
-                Gym.
+                Gym gym = new Gym(args);
+                gym.Fight();
             }
             else
             {

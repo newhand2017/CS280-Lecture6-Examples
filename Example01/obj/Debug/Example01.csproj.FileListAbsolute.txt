@@ -6,3 +6,11 @@ D:\Work\CSharp\CS280-Lecture6-Examples\Example01\bin\Debug\PokemonLibrary.pdb
 D:\Work\CSharp\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
 D:\Work\CSharp\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.exe
 D:\Work\CSharp\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.pdb
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.exe
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\obj\Debug\Example01.pdb
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\bin\Debug\Example01.exe.config
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\bin\Debug\Example01.exe
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\bin\Debug\Example01.pdb
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\bin\Debug\PokemonLibrary.dll
+E:\Work_Space\CSharp\CS280\CS280-Lecture6-Examples\Example01\bin\Debug\PokemonLibrary.pdb
