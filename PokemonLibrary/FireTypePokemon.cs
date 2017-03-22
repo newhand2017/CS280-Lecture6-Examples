@@ -28,8 +28,19 @@ namespace PokemonLibrary
             weight
             )
         {
-            // this.PowerUpCandy = 3;
-            //  this.PowerUpStarDust = 3000;
+            this.PowerUpCandy[this.Name] = 5;
+            this.PowerUpStardust[this.Name] = 3000;
         }
+
+        //-------------------------------------------------
+        // Attack
+        //-------------------------------------------------
+        public override void Attack(Pokemon other)
+        {
+            base.Attack(other);
+            Console.WriteLine("使用火系絕招");
+        }
+
+        //-------------------------------------------------
     }
 }

@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bulbasaur.cs" />
+    <Compile Include="Charmander.cs" />
+    <Compile Include="Charmeleon.cs" />
     <Compile Include="FireTypePokemon.cs" />
     <Compile Include="GrassTypePokemon.cs" />
     <Compile Include="Gym.cs" />

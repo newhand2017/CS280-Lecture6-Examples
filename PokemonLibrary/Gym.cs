@@ -11,6 +11,7 @@ namespace PokemonLibrary
         public Pokemon[] pokemons;
         private Random random;
 
+        //Build Gym with initial value
         public Gym(string[] names)
         {
             pokemons = new Pokemon[names.Length];
@@ -22,6 +23,7 @@ namespace PokemonLibrary
             }
         }
 
+        //Fight
         public void Fight()
         {
             int a = this.RandomGenerator(0, this.pokemons.Length);
@@ -30,6 +32,10 @@ namespace PokemonLibrary
             pokemons[a].Attack(pokemons[b]);
         }
 
+        //-------------------------------------------------
+        // Other Function
+        //-------------------------------------------------
+        //Random Function
         private int RandomGenerator(int from, int to)
         {
             double result = (to - from) * this.random.NextDouble() + from;
@@ -37,6 +43,9 @@ namespace PokemonLibrary
             return (int)result;
         }
 
+        //-------------------------------------------------
+        //
+        //-------------------------------------------------
         // public Pokemon pokemon1;
         // public Pokemon pokemon2;
         //   public Gym(string name1, string name2)
@@ -49,5 +58,6 @@ namespace PokemonLibrary
         //  {
         //      pokemon1.Attack(pokemon2);
         //  }
+        //-------------------------------------------------
     }
 }

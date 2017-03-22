@@ -18,6 +18,12 @@ namespace PokemonLibrary
                 case "妙蛙草":
                     return new Ivysaur();
 
+                case "小火龍":
+                    return new Charmander();
+
+                case "火恐龍":
+                    return new Charmeleon();
+
                 default:
                     return new Bulbasaur();
             }
